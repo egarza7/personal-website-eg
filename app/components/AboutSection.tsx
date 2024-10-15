@@ -8,22 +8,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 grid grid-cols-4 gap-4">
-        <li>Node.js</li>
-        <li>Next.js</li>
+        <li>Microsoft SQL Server</li>
+        <li>MySQL</li>
         <li>PostgreSQL</li>
-        <li>Unity</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Godot</li>
-        <li>C#</li>
-        <li>Python</li>
         <li>C++</li>
-        <li>OpenCV</li>
+        <li>Python</li>
         <li>Git</li>
-        <li>Google Cloud Platform</li>
-        <li>LLM</li>
-        <li>Deep Learning</li>
-        <li>VR/AR</li>
+        <li>Fantasy Football</li>
+        <li>Cooking</li>
       </ul>
       
     ),
@@ -33,8 +25,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Master&apos;s Computer Science - University of Texas Rio Grande Valley</li>
-        <li>Bachelor&apos;s Computer Science - University of Texas Rio Grande Valley</li>
+        <li>Associate's Degree&apos;s Computer Science - Austin Community College</li>
       </ul>
     ),
   },
@@ -43,7 +34,11 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Add Later</li>
+        <li>SQL Basics</li>
+        <li>Standard SQL Functions</li>
+        <li>Creating Tables in SQL</li>
+        <li>How to INSERT, UPDATE, and DELETE Data in SQL</li>
+        <li>SQL JOINs</li>
       </ul>
     ),
   },
@@ -66,13 +61,9 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Game Developer with interest of many topics, from Machine Learning, to Theory.
-            Different skills I have acquired over the years to consider myself a Jack of All Trades, and
-            master to game development since its quite fun.
-
-            My enthusiasm for technology drives me to continue to learn something new, and I have enjoyed
-            learning different topics and also teaching others to pursue certain topics if it finds their
-            intereset. 
+            I am a Database Administrator with interest of many topics, from Database Development, to Data Science.
+            I enjoy the whole process from developing a database to maintaining it. My enthusiasm for technology drives me to continue to learn something new, and I have enjoyed
+            learning different topics all related to the field.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
