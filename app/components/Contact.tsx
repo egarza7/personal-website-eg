@@ -25,10 +25,10 @@ const Contact = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-        <Link href="https://github.com/ButterM-40">
+        <Link href="https://github.com/egarza7" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/ramiro-santos-a26652268/">
+          <Link href="https://www.linkedin.com/in/eduardo-garza-154112327/" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
