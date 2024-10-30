@@ -25,7 +25,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Associate's Degree&apos;s Computer Science - Austin Community College</li>
+        <li>Associates Degree&apos;s Computer Science - Austin Community College</li>
       </ul>
     ),
   },
